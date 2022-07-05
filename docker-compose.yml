@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  bot:
+    container_name: news_agent
+
+    build:
+      context: .
+
+    command: python3 main.py
