@@ -23,7 +23,7 @@ def commands(message):
                 for i in post:
                     bot.send_message(message.from_user.id, i)
                     
-            time.sleep(custom_crono(13, 24))
+            time.sleep(86400)
             
 
 bot.polling()
